@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- FIM BOOTSTRAP ICONS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="imagens/logo.png" type="image/png">
+
+    <title>Daniel</title>
+</head>
+<body>
+    
+<header>
+    <div class="interface" style="display: flex; justify-content: center; align-items: center; padding: 40px 0;">
+        <div class="logo">
+            <a href="#">
+                <img src="imagens/Titulo.png" alt="Logo do site">
+            </a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="topo-do-site">
+        <div class="interface">
+            <div class="flex" style="align-items: center; justify-content: center;">
+                <!-- Texto -->
+                <div class="txt-topo-site">
+                    <h1>Criando, inovando e aprendendo — sempre<span>!</span></h1>
+                    <p>
+                        Olá, meu nome é Daniel Barbosa Caldeira, eu credito que a tecnologia é um campo em constante transformação, e para crescer junto com ela é preciso mais do que conhecimento técnico: é necessário curiosidade, criatividade e vontade de aprender todos os dias. Cada projeto é uma oportunidade de explorar novas ideias, aprimorar minhas habilidades e encontrar soluções que façam a diferença.
+                    </p>
+
+                    <div class="btn-contato" style="display: flex; align-items: center; gap: 20px;">
+                        <span style="color: #fff; font-size: 18px; font-weight: 500;">Entre em contato</span>
+                        <a href="https://www.linkedin.com/in/daniel-b-caldeira-09a763357" target="_blank">
+                            <button style="padding: 10px 20px; font-size: 18px; font-weight: 600; background-color: #00bf63; border: 0; border-radius: 30px; cursor: pointer;">
+                                <i class="bi bi-linkedin" style="color: #fff; font-size: 20px;"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Imagem -->
+                <div class="img-topo-site">
+                    <img src="imagens/imagem-perfil.png" alt="Foto de perfil">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cursos-e-projetos">
+        <div class="interface">
+            <h2 class="titulo2">MEUS <span>CURSOS, PROJETOS E QUEM SOU</span></h2>
+            <div class="flex">
+                <!-- Box "Quem é Daniel?" -->
+                <div class="cursos-e-projetos-box" style="flex: 1; min-width: 300px;" onclick="document.getElementById('sobre').scrollIntoView({ behavior: 'smooth' });">
+                    <i class="bi bi-person"></i>
+                    <h3>Quem é Daniel?</h3>
+                    <p>Conheça minha trajetória até aqui e descubra um pouco de tudo que aprendi</p>
+                </div>
+
+                <!-- Box "Cursos, Projetos & Graduação" -->
+                <div class="cursos-e-projetos-box" style="flex: 1; min-width: 300px;" onclick="document.getElementById('formacao').scrollIntoView({ behavior: 'smooth' });">
+                    <i class="bi bi-backpack3"></i>
+                    <h3>Cursos, Projetos & Graduação</h3>
+                    <p>Minhas formações acadêmicas e cursos que <br> me prepararam para o mundo da tecnologia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="interface">
+            <div class="flex">
+                <div class="img-sobre">
+                    <img src="imagens/foto.jpg" alt="Foto Daniel">
+                </div>
+                <div class="txt-sobre">
+                    <p>
+                        Olá, meu nome é Daniel. Sou uma pessoa tranquila e muito calma, às vezes até demais. Sempre gostei de tecnologia, e acredito que tudo começou quando ganhei meu primeiro videogame, um DVD Player Lenoxx DK417. Fiquei fascinado e, a partir daí, meu interesse por tecnologia só cresceu.
+                    </p>
+                    <p>
+                        Em 2017, participei do projeto Pernambucoders, que levava programação para escolas públicas do Recife, e foi nesse momento que comecei a aprender de forma mais estruturada o que realmente era tecnologia.
+                    </p>
+                    <p>
+                        Em 2019, iniciei o curso Técnico em Análise e Desenvolvimento de Sistemas pela Uninassau e, em 2020, conquistei meu primeiro estágio na Stefanini, onde fui efetivado como Desenvolvedor Júnior e participei de diversos treinamentos técnicos e comportamentais.
+                    </p>
+                    <p>
+                        De 2023 a 2024, participei de formações como FAP pela Softex, cursos de Front-End, Cloud Computing, Inteligência Artificial, Robótica e Soft Skills, oferecidos por instituições como Rede Cidadã, Instituto Aliança, AWS e Technomaker.
+                    </p>
+                    <p>
+                        Atualmente, curso Sistemas de Informação na Estácio e sigo em busca de novas oportunidades para aplicar meus conhecimentos, contribuir em projetos inovadores e evoluir na área de tecnologia.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOVA SEÇÃO FORMAÇÃO -->
+    <section class="formacao" id="formacao">
+        <div class="interface">
+            <h2 class="titulo2">Meus <span>Cursos, Projetos & Graduações</span></h2>
+
+            <!-- Graduações -->
+            <div class="graduação">
+                <h3>Graduações</h3>
+
+                <div class="formacao-box">
+                    <h4>Analise e Desenvolvimento de Sistemas - <span>Uninassau</span></h4>
+                    <p>
+                        Sou formado em <span>Analise e Desenvolvimento de Sistemas</span>, iniciei a faculdade em 2019 e finalizei em 2021, foi com essa formação que consegui meu primeiro estágio e emprego na área que amo, estagiei por 2 anos e trabalhei como Carteira assinada por mais 1 ano e meio na Stefanini. O Estágio foi ótimo para melhorar meus conhecimentos junto com a faculdade, na Stefanini eu trabalhei com alguns clientes como: OMRON, Asics, Canon, Mercado Livre, Correios, P&G, Apple, Vivo, dentre outros.
+                        Utilizei no meu dia a dia ferramentas de modelagem de processos da IBM (IBM Business Process Management (BPM)), Java para Userexits, OracleSQL, Git, e ferramentas para teste, criação e depuração de WebServices.
+                    </p>
+                </div>
+
+                <div class="formacao-box">
+                    <h4>Sistemas da Informação - <span>Estácio</span></h4>
+                    <p>
+                        Atualmente estou cursando <span>Sistemas da Informação</span> e estou no segundo período, decidi começar mais uma faculdade para crescer ainda mais na minha área, continuo buscando conhecimento e sempre tentando me manter atualizado.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Cursos Complementares -->
+            <div class="cursos-complementares">
+                <h3>Cursos Complementares</h3>
+
+                <div class="formacao-box">
+                    <h4>Formação Acelerada em Programação - <span>FAP</span></h4>
+                    <p>
+                        Em 2024, participei da Formação Acelerada em Programação (<span>FAP</span>), um curso oferecido pela Softex, onde estudei Back-End com JavaScript. Durante o curso, foram abordados temas como lógica de programação com JavaScript, noções de banco de dados, JavaScript/TypeScript e orientação a objetos, padrões de desenvolvimento de software, introdução a Webservices, Node.js, Git, GitHub e GitLab, desenvolvimento de soft skills e prática de projetos.
+                    </p>
+                </div>
+
+                <div class="formacao-box">
+                    <h4>Start+ Cibersegurança</h4>
+                    <p>
+                        Além disso, participei do curso Start+ Cibersegurança, no qual adquiri conhecimentos fundamentais sobre hackers e cibersegurança, segurança na internet, redes, sistemas operacionais Windows e Linux, além de noções de programação com Python, JavaScript e SQL. Aprendi sobre malware, suas ameaças e estratégias de defesa, realizando análises estáticas e dinâmicas, identificando malwares polimórficos e aplicando técnicas de ofuscamento. Em Forense Digital, estudei aspectos legais da perícia, criação de laboratórios, cenários de investigação, Live Forensics em Windows e Linux e recuperação avançada de dados. O curso também abordou atividades práticas como Capture The Flag (CTF), cibercrime, cibersegurança defensiva e ofensiva, além de trazer uma visão sobre o mercado de trabalho na área.
+                    </p>
+                </div>
+
+                <div class="formacao-box">
+                    <h4>Start Latam</h4>
+                    <p>
+                        O Curso do <span>Start Latam</span> foi um curso que me agradou e consegui adquirir muitos conhecimentos em diversas áreas fundamentais para o desenvolvimento web e gerenciamento de dados. Durante o curso, aprendi a projetar e manipular bancos de dados relacionais, criar tabelas, utilizar comandos SQL e conectar aplicações a redes cliente/servidor. No desenvolvimento front-end, aprofundei meus conhecimentos em HTML, integrando CSS e JavaScript para estruturar, estilizar e tornar páginas interativas, explorando conceitos como responsividade, Flexbox, CSS Grid, e frameworks como Bootstrap. Em JavaScript, aprendi sobre variáveis, tipos de dados, arrays, strings, funções, estruturas de repetição, DOM e eventos, além de trabalhar com JSON e desenvolver APIs back-end com Node.js. Também tive contato com React, compreendendo o virtual DOM, componentes, JSX, state, props, React Router, consumo
+                    </p>
+                </div
